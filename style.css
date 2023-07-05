@@ -1,0 +1,95 @@
+/* Importing google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 98vw;
+    height: 98vh;
+    background: #F3BCC8;
+    position: absolute;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0.6rem 0;
+}
+
+.joke{
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    margin: 3rem 0;
+}
+
+.box{
+    margin: 25vh 18vw;
+    width: 60vw;
+    height: 63vh;
+    position: relative;
+    background: #E893CF;
+    border-radius: 3.5rem;
+    -webkit-border-radius: 3.5rem;
+    -moz-border-radius: 3.5rem;
+    -ms-border-radius: 3.5rem;
+    -o-border-radius: 3.5rem;
+    padding: 1rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li:hover{
+    opacity: 0.7;
+    background: salmon;
+}
+
+ul li{
+    list-style: none;
+    cursor: pointer;
+    margin:0.5rem;
+    padding: 0.4rem;
+    background: #F3BCC8;
+    border: 1px #F266AB solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; 
+}
+
+ul li i{
+    margin: 0.3rem;
+    font-size: 1.2rem;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button:hover{
+    opacity: 0.7;
+    background:darksalmon;
+}
+
+button{
+    cursor: pointer;
+    padding: 0.7rem;
+    background: #F3BCC8;
+    border: 1px lightblue solid;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    font-weight: 600;
+}
